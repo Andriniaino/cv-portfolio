@@ -60,13 +60,13 @@ export default function Navigation() {
 
           {/* Download & Contact Buttons & Mobile Menu */}
           <div className="flex items-center space-x-2">
-            <Button
+          {/*<Button
               onClick={handleDownloadCV}
               className="hidden sm:flex items-center space-x-2 bg-primary hover:bg-secondary text-primary-foreground"
             >
               <Download size={16} />
-              <span>Télécharger CV</span>
-            </Button>
+             <span>Télécharger CV</span>
+            </Button>*/}
 
             <Button
               onClick={handleContact}
