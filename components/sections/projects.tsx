@@ -228,13 +228,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-
-        {/* View All Button */}
-        <div className="mt-12 text-center">
-          <Button className="bg-primary hover:bg-secondary text-primary-foreground px-8">
-            Voir tous les projets <ExternalLink size={16} className="ml-2" />
-          </Button>
-        </div>
+        
       </div>
     </section>
   )
