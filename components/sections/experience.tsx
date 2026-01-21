@@ -12,7 +12,7 @@ export default function Experience() {
       period: "Septembre - Décembre 2025",
       title: "Stage en Administration Réseau",
       company: "Zomatel Hôtel, Anjoma Fianarantsoa 301",
-      description: "Mise en place de Windows Server Datacenter 2024 avec détection automatique des alertes en cas de panne via Zabbix, déploiement de Starlink V7",
+      description: "Mise en place de Windows Server Datacenter 2024 avec détection automatique des alertes en cas de panne via Zabbix",
       highlights: [
         "Installation de Windows Server Datacenter 2024 au sein de Zomatel Hôtel",
         "Configuration et mise en place des rôles Active Directory, DNS, DHCP et ADCS",
@@ -28,8 +28,15 @@ export default function Experience() {
         "Configuration des hôtes, items et triggers",
         "Installation et configuration des agents Zabbix sur les appareils et services à surveiller",
         "Configuration des alertes automatiques par e-mail et envoi aux administrateurs en cas de panne",
-        
-        "MISE EN PLACE DE STARLINK V7 au sein de ZOMATEL HOTEL",
+      ]
+    },
+    
+    {
+      period: "en Cours",
+      title: "stage en maintenance informatique",
+      company: "Zomatel Hotel, Anjoma Fianarantsoa 301",
+      description: "Déploiement et configuration d’une infrastructure réseau incluant Starlink v7, PoE++, UDM Pro et routeur U7 Pro XGR",
+      highlights: [
         "Installation et configuration des points d’accès (AP) dans tous les bâtiments disponibles",
         "Sécurisation de la connexion avec CGNAT et mise en place de pare-feu",
         "Remplacement des câbles réseau défectueux et optimisation du câblage des postes de travail",
@@ -40,10 +47,22 @@ export default function Experience() {
         "Configuration des sauvegardes et plan de continuité en cas de panne"
       ]
     },
-    
-
-   
-
+    {
+      period: "novembre - decembre 2025",
+      title: " Configuration des smartphone Android",
+      company: "Prestataire de PIvot Ranomafana Ifanadina",
+      description: "on utilise le script bash",
+      highlights: [
+        "Configuration de smartphone android 820 pour apliquer le Agent Communautaire de Nosy varika ",
+        "identifient des smartphones",
+        "check IMEIL a chaque smartphones",
+        "premier demarrages des smartphones",
+        "installation des applications dans le script bash, comme commCaire",
+        "insertions des carte SIM et config de APN",
+        "droit, permission d'utilisateur",
+        "blocages des services comme cammera, bloutoofth",
+      ],
+    },
     {
       period: "Septembre - Décembre 2024",
       title: "Stage en Administration Réseau",
@@ -90,22 +109,7 @@ export default function Experience() {
         "Gestion des migrations complexes et haute disponibilité",
       ],
     },
-    {
-      period: "novembre - decembre 2025",
-      title: " Configuration des smartphone Android",
-      company: "Prestataire de PIvot Ranomafana Ifanadina",
-      description: "on utilise le script bash",
-      highlights: [
-        "Configuration de smartphone android 820 pour apliquer le Agent Communautaire de Nosy varika ",
-        "identifient des smartphones",
-        "check IMEIL a chaque smartphones",
-        "premier demarrages des smartphones",
-        "installation des applications dans le script bash, comme commCaire",
-        "insertions des carte SIM et config de APN",
-        "droit, permission d'utilisateur",
-        "blocages des services comme cammera, bloutoofth",
-      ],
-    },
+    
   ]
 
   return (

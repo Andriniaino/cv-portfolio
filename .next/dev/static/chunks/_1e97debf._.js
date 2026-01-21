@@ -537,7 +537,7 @@ function Hero() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-3xl font-bold text-primary",
-                                        children: "3+"
+                                        children: "3"
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 82,
@@ -562,7 +562,7 @@ function Hero() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-3xl font-bold text-accent",
-                                        children: "25+"
+                                        children: "20+"
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 86,
@@ -846,7 +846,7 @@ function Experience() {
             period: "Septembre - Décembre 2025",
             title: "Stage en Administration Réseau",
             company: "Zomatel Hôtel, Anjoma Fianarantsoa 301",
-            description: "Mise en place de Windows Server Datacenter 2024 avec détection automatique des alertes en cas de panne via Zabbix, déploiement de Starlink V7",
+            description: "Mise en place de Windows Server Datacenter 2024 avec détection automatique des alertes en cas de panne via Zabbix",
             highlights: [
                 "Installation de Windows Server Datacenter 2024 au sein de Zomatel Hôtel",
                 "Configuration et mise en place des rôles Active Directory, DNS, DHCP et ADCS",
@@ -860,8 +860,15 @@ function Experience() {
                 "Configuration du serveur web (Nginx) et de la base de données (PostgreSQL)",
                 "Configuration des hôtes, items et triggers",
                 "Installation et configuration des agents Zabbix sur les appareils et services à surveiller",
-                "Configuration des alertes automatiques par e-mail et envoi aux administrateurs en cas de panne",
-                "MISE EN PLACE DE STARLINK V7 au sein de ZOMATEL HOTEL",
+                "Configuration des alertes automatiques par e-mail et envoi aux administrateurs en cas de panne"
+            ]
+        },
+        {
+            period: "en Cours",
+            title: "stage en maintenance informatique",
+            company: "Zomatel Hotel, Anjoma Fianarantsoa 301",
+            description: "Déploiement et configuration d’une infrastructure réseau incluant Starlink v7, PoE++, UDM Pro et routeur U7 Pro XGR",
+            highlights: [
                 "Installation et configuration des points d’accès (AP) dans tous les bâtiments disponibles",
                 "Sécurisation de la connexion avec CGNAT et mise en place de pare-feu",
                 "Remplacement des câbles réseau défectueux et optimisation du câblage des postes de travail",
@@ -870,6 +877,22 @@ function Experience() {
                 "Gestion des adresses IP et plan d’adressage adapté",
                 "Mise en place de la supervision du réseau et suivi de la bande passante",
                 "Configuration des sauvegardes et plan de continuité en cas de panne"
+            ]
+        },
+        {
+            period: "novembre - decembre 2025",
+            title: " Configuration des smartphone Android",
+            company: "Prestataire de PIvot Ranomafana Ifanadina",
+            description: "on utilise le script bash",
+            highlights: [
+                "Configuration de smartphone android 820 pour apliquer le Agent Communautaire de Nosy varika ",
+                "identifient des smartphones",
+                "check IMEIL a chaque smartphones",
+                "premier demarrages des smartphones",
+                "installation des applications dans le script bash, comme commCaire",
+                "insertions des carte SIM et config de APN",
+                "droit, permission d'utilisateur",
+                "blocages des services comme cammera, bloutoofth"
             ]
         },
         {
@@ -917,22 +940,6 @@ function Experience() {
                 "Conception et optimisation d'architectures LAN/WAN/WiFi",
                 "Gestion des migrations complexes et haute disponibilité"
             ]
-        },
-        {
-            period: "novembre - decembre 2025",
-            title: " Configuration des smartphone Android",
-            company: "Prestataire de PIvot Ranomafana Ifanadina",
-            description: "on utilise le script bash",
-            highlights: [
-                "Configuration de smartphone android 820 pour apliquer le Agent Communautaire de Nosy varika ",
-                "identifient des smartphones",
-                "check IMEIL a chaque smartphones",
-                "premier demarrages des smartphones",
-                "installation des applications dans le script bash, comme commCaire",
-                "insertions des carte SIM et config de APN",
-                "droit, permission d'utilisateur",
-                "blocages des services comme cammera, bloutoofth"
-            ]
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -946,7 +953,7 @@ function Experience() {
                     children: "Expérience Professionnelle"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/experience.tsx",
-                    lineNumber: 114,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -969,7 +976,7 @@ function Experience() {
                                                             children: exp.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/experience.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 132,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -977,13 +984,13 @@ function Experience() {
                                                             children: exp.company
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/experience.tsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 133,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 131,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -991,13 +998,13 @@ function Experience() {
                                                     children: exp.period
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 137,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/experience.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 130,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
@@ -1005,13 +1012,13 @@ function Experience() {
                                             className: `text-muted-foreground transition-transform flex-shrink-0 ml-4 ${expanded === idx ? "rotate-180" : ""}`
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/experience.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 139,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/experience.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this),
                                 expanded === idx && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1022,7 +1029,7 @@ function Experience() {
                                             children: exp.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/experience.tsx",
-                                            lineNumber: 144,
+                                            lineNumber: 148,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1033,7 +1040,7 @@ function Experience() {
                                                     children: "Responsabilités & Réalisations:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                    lineNumber: 146,
+                                                    lineNumber: 150,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1045,7 +1052,7 @@ function Experience() {
                                                                     className: "w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                                    lineNumber: 150,
+                                                                    lineNumber: 154,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1053,52 +1060,52 @@ function Experience() {
                                                                     children: highlight
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                                    lineNumber: 151,
+                                                                    lineNumber: 155,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, i, true, {
                                                             fileName: "[project]/components/sections/experience.tsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 153,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/experience.tsx",
-                                                    lineNumber: 147,
+                                                    lineNumber: 151,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/experience.tsx",
-                                            lineNumber: 145,
+                                            lineNumber: 149,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/experience.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 147,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, idx, true, {
                             fileName: "[project]/components/sections/experience.tsx",
-                            lineNumber: 118,
+                            lineNumber: 122,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/experience.tsx",
-                    lineNumber: 116,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/experience.tsx",
-            lineNumber: 113,
+            lineNumber: 117,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/experience.tsx",
-        lineNumber: 112,
+        lineNumber: 116,
         columnNumber: 5
     }, this);
 }
@@ -1131,155 +1138,116 @@ function Skills() {
             category: "Systèmes d'Exploitation",
             icon: "🖥️",
             items: [
-                "Windows Server 2012/2016/2019/2022",
-                "Ubuntu (Server/Desktop)",
-                "CentOS",
-                "Debian"
+                "Windows Server 2012/2016/2019/2022 (AD, DNS, DHCP)",
+                "Windows 10/11 Administration",
+                "Ubuntu / Debian / CentOS (Server & Desktop)",
+                "Gestion des services, journalisation, scripts de maintenance"
             ]
         },
         {
-            category: "Virtualisation",
+            category: "Virtualisation & Infrastructure",
             icon: "☁️",
             items: [
-                "VMware",
-                "Hyper-V",
-                "Proxmox",
-                "VirtualBox",
-                "Haute Disponibilité"
+                "VMware, Hyper-V, Proxmox, VirtualBox",
+                "Création et gestion de VM, templates, snapshots",
+                "Haute Disponibilité et basculement",
+                "Bases de la consolidation et dimensionnement d'infra"
             ]
         },
         {
-            category: "Administration Active Directory",
+            category: "Active Directory & Services d’Infrastructure",
             icon: "👥",
             items: [
-                "ADDS, DNS, DHCP",
-                "ADCS, IIS",
-                "remoteApp(RD Web, RD Host, RD Gateway",
-                "GPO Complexes",
-                "Délégation Admin",
-                "Durcissement Kerberos"
+                "ADDS, DNS, DHCP, DFS",
+                "ADCS, IIS, gestion des certificats",
+                "RemoteApp (RD Web, RD Host, RD Gateway)",
+                "GPO avancées, délégation d'administration, durcissement Kerberos"
             ]
         },
         {
-            category: " routeur: MICROTIC et PFSENSE",
-            icon: "👥",
+            category: "Réseaux & Routage IP",
+            icon: "🌐",
             items: [
-                "ferewall",
-                "port forwarding",
-                "porteil captif",
-                "Vouchers",
-                "VPN"
-            ]
-        },
-        {
-            category: "ROUTAGE IP",
-            icon: "👥",
-            items: [
-                "Configuration Desequipement reseau"
+                "Cisco / Mikrotik : configuration d’équipements réseau",
+                "VLAN / Inter-VLAN, routage statique et dynamique",
+                "VPN (IPsec, OpenVPN), QoS / Load Balancing",
+                "OSPF / BGP, analyse de trafic avec Wireshark"
             ]
         },
         {
             category: "Sécurité Informatique",
             icon: "🔒",
             items: [
-                "Firewall (pfSense/Fortigate/Cisco)",
-                "IDS/IPS (Snort/Suricata)",
-                "/SSL/TLS",
-                "SIEM",
-                "Audit de sécurité"
-            ]
-        },
-        {
-            category: "Réseaux",
-            icon: "🌐",
-            items: [
-                "Cisco/Mikrotik",
-                "VLAN/Inter-VLAN Routing",
-                "VPN/ openVPN",
-                "OSPF/BGP",
-                "QoS/Load Balancing",
-                "Wireshark"
+                "Firewalls (pfSense, Fortigate, Cisco ASA)",
+                "Règles de filtrage, NAT, port forwarding, portail captif, vouchers",
+                "IDS/IPS (Snort / Suricata), SSL/TLS",
+                "Audit de sécurité, durcissement systèmes et réseaux, notions de SIEM"
             ]
         },
         {
             category: "Supervision & Monitoring",
             icon: "📊",
             items: [
-                "Zabbix",
-                "Nagios/Centreon",
+                "Zabbix (hôtes, items, triggers, templates)",
+                "Nagios / Centreon",
                 "Grafana + Prometheus",
-                "ELK Stack",
-                "PRTG Network Monitor"
+                "ELK Stack, PRTG Network Monitor"
             ]
         },
         {
             category: "Stockage & Sauvegarde",
             icon: "💾",
             items: [
-                "SAN/NAS (Dell EMC, HP, Synology)",
-                "Veeam",
-                "Snapshots"
+                "SAN / NAS (Dell EMC, HP, Synology)",
+                "Veeam Backup & Replication",
+                "Snapshots, plan de sauvegarde et restauration",
+                "Notions de PRA/PCA"
             ]
         },
         {
             category: "Bases de Données",
             icon: "🗂️",
             items: [
-                "MySQL/MariaDB",
-                "PostgreSQL",
-                "SQL Server",
-                "Administration & Optimisation"
+                "MySQL / MariaDB, PostgreSQL, SQL Server",
+                "Installation, sauvegarde/restauration",
+                "Requêtes SQL de base et optimisation simple"
             ]
         },
         {
-            category: "Développement Web",
+            category: "Développement Web & APIs",
             icon: "💻",
             items: [
-                "Next.js",
-                "React",
-                "Express.js",
-                "spring boot",
-                "Vue.js",
-                "HTML/CSS/JavaScript",
-                "PHP"
+                "Next.js, React, Vue.js, Express.js, Spring Boot",
+                "HTML / CSS / JavaScript",
+                "PHP (base), REST APIs",
+                "Intégration front/back pour outils d’admin"
             ]
         },
         {
-            category: "Développement Mobile",
+            category: "Développement Mobile & Bureau",
             icon: "📱",
             items: [
-                "React Native",
-                "Expo go",
-                "JavaScript",
-                "REST APIs"
+                "React Native, Expo Go",
+                "Java, C#, C++ (applications desktop)",
+                "Consommation d’APIs REST"
             ]
         },
         {
-            category: "Développement Bureau",
-            icon: "📱",
-            items: [
-                "JAVA",
-                "C#",
-                "C++"
-            ]
-        },
-        {
-            category: "Automatisation",
+            category: "Automatisation & Outils",
             icon: "⚙️",
             items: [
-                "PowerShell Avancé",
-                "Bash/Shell",
-                "Git/GitHub/GitLab"
+                "PowerShell avancé (AD, Windows Server)",
+                "Bash / Shell pour Linux",
+                "Git / GitHub / GitLab (versionning, CI/CD basique)"
             ]
         },
         {
-            category: "Smartphone android",
+            category: "Support & Mobilité",
             icon: "📋",
             items: [
-                "premier demarrage",
-                "configuration",
-                "droit d'utilisateur",
-                "permission"
+                "Smartphone Android : premier démarrage, configuration",
+                "Gestion des permissions et droits utilisateurs",
+                "Support utilisateur et accompagnement"
             ]
         }
     ];
@@ -1294,7 +1262,7 @@ function Skills() {
                     children: "Compétences Techniques"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 103,
+                    lineNumber: 136,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1302,7 +1270,7 @@ function Skills() {
                     children: "Une expertise complète couvrant l'administration systèmes, la gestion réseau, la sécurité informatique et le développement full-stack."
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 104,
+                    lineNumber: 139,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1319,7 +1287,7 @@ function Skills() {
                                             children: skill.category
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1327,13 +1295,13 @@ function Skills() {
                                             children: skill.icon
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 159,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 155,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1345,7 +1313,7 @@ function Skills() {
                                                     className: "w-1.5 h-1.5 bg-accent rounded-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/skills.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 169,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1353,18 +1321,18 @@ function Skills() {
                                                     children: item
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/skills.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 170,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 168,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 162,
                                     columnNumber: 15
                                 }, this),
                                 skill.items.length > 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1372,29 +1340,29 @@ function Skills() {
                                     children: selectedCategory === skill.category ? "Voir moins" : `+${skill.items.length - 3} compétences`
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 178,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, idx, true, {
                             fileName: "[project]/components/sections/skills.tsx",
-                            lineNumber: 111,
+                            lineNumber: 146,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 109,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/skills.tsx",
-            lineNumber: 102,
+            lineNumber: 135,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/skills.tsx",
-        lineNumber: 101,
+        lineNumber: 134,
         columnNumber: 5
     }, this);
 }

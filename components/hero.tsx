@@ -79,11 +79,11 @@ export default function Hero() {
           {/* Right Side - Stats or Image Placeholder */}
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-primary/10 border border-primary/20 rounded-lg p-6 space-y-2 hover:bg-primary/15 transition-colors">
-              <p className="text-3xl font-bold text-primary">3+</p>
+              <p className="text-3xl font-bold text-primary">3</p>
               <p className="text-sm text-muted-foreground">Années d'expérience IT</p>
             </div>
             <div className="bg-accent/10 border border-accent/20 rounded-lg p-6 space-y-2 hover:bg-accent/15 transition-colors">
-              <p className="text-3xl font-bold text-accent">25+</p>
+              <p className="text-3xl font-bold text-accent">20+</p>
               <p className="text-sm text-muted-foreground">Projets réalisés</p>
             </div>
             <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6 space-y-2 hover:bg-secondary/15 transition-colors">
