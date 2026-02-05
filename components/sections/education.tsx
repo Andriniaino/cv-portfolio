@@ -1,6 +1,12 @@
 export default function Education() {
   const educations = [
     {
+      period: "en cours",
+      title: "formation de sisco Academy",
+      school: "",
+      details: "Administration Systèmes et Réseaux",
+    },
+    {
       period: "2024-2025",
       title: "Troisième année de Licence Professionnelle",
       school: "Ecole Nationale Informatique, Université de Fianarantsoa",

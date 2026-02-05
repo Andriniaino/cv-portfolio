@@ -1,22 +1,83 @@
-[00:00:32.210] Server  LOG     ✓ Ready in 24.4s
-[00:00:50.052] Server  LOG     ○ Compiling / ...
-[00:01:37.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:38.237] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:38.238] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:38.238] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769022018896}
-[00:35:18.924] Server  LOG     ✓ Compiled in 2.2s
-[00:36:11.468] Server  LOG     ✓ Compiled in 688ms
-[00:43:13.472] Server  LOG     ✓ Compiled in 186ms
-[00:44:01.637] Server  LOG     ✓ Compiled in 92ms
-[00:46:22.481] Server  LOG     ✓ Compiled in 244ms
-[00:57:51.742] Server  LOG     ✓ Compiled in 100ms
-[01:08:39.323] Server  LOG     ✓ Compiled in 2.4s
-[01:08:40.384] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:01:11.371] Server  LOG     ✓ Ready in 62.6s
+[00:01:41.577] Server  LOG     ○ Compiling / ...
+[00:02:07.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.299] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:09.299] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:09.299] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1770308199805}
+[00:05:46.449] Server  LOG     ✓ Compiled in 14.5s
+[00:06:23.213] Server  LOG     ✓ Compiled in 312ms
+[00:28:13.383] Server  LOG     ✓ Compiled in 293ms
+[00:35:54.435] Server  LOG     ✓ Compiled in 3.6s
+[00:35:56.545] Browser ERROR   ./components/sections/skills.tsx:165:2
+Parsing ecmascript source code failed
+  163 |     ]
+  164 |   }
+> 165 | ]
+      |  ^
+  166 |
+  167 |
 
-Check the render method of `Home`.
-[01:11:08.738] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:11:08.751] Server  LOG     ✓ Compiled in 327ms
-[01:11:09.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:10.589] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:11:10.589] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:11:10.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769026190527}
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/skills.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/skills.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:37:58.217] Server  LOG     ✓ Compiled in 830ms
+[00:37:58.442] Browser ERROR   ./components/sections/skills.tsx:13:7
+Parsing ecmascript source code failed
+  11 | export default function Skills()  {
+  12 |   category: "Infrastructures & Systèmes",
+> 13 |   icon: "🖥️",
+     |       ^
+  14 |   items: [
+  15 |     "Maîtrise des architectures IT : serveurs, réseaux, systèmes d’exploitation, bases de données, applications et sécurité",
+  16 |     "Standardisation, documentation et optimisation des infrastructures IT",
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/skills.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/skills.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:38:07.501] Browser ERROR   ./components/sections/skills.tsx:13:7
+Parsing ecmascript source code failed
+  11 | export default function Skills()  {
+  12 |   category: "Infrastructures & Systèmes",
+> 13 |   icon: "🖥️",
+     |       ^
+  14 |   items: [
+  15 |     "Maîtrise des architectures IT : serveurs, réseaux, systèmes d’exploitation, bases de données, applications et sécurité",
+  16 |     "Standardisation, documentation et optimisation des infrastructures IT",
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/skills.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/skills.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:39:01.889] Server  LOG     ✓ Compiled in 478ms
+[00:56:14.796] Server  LOG     ✓ Compiled in 206ms
+[01:28:33.730] Server  LOG     ✓ Compiled in 249ms
+[01:30:10.821] Server  LOG     ✓ Compiled in 700ms
+[01:30:25.672] Server  LOG     ✓ Compiled in 318ms
+[01:31:14.860] Server  LOG     ✓ Compiled in 1248ms
+[02:09:22.498] Server  LOG     ✓ Compiled in 284ms

@@ -1094,13 +1094,39 @@ function Skills() {
     const [selectedCategory, setSelectedCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const skills = [
         {
-            category: "Systèmes d'Exploitation",
+            category: "Infrastructures & Systèmes",
+            icon: "🖥️",
+            items: [
+                "Maîtrise des architectures IT : serveurs, réseaux, systèmes d’exploitation, bases de données, applications et sécurité",
+                "Standardisation, documentation et optimisation des infrastructures IT",
+                "Planification et évolution du parc informatique",
+                "Veille technologique continue orientée infrastructures et cybersécurité",
+                "Gestion des services systèmes, journalisation et scripts de maintenance"
+            ]
+        },
+        {
+            category: "Systèmes & Réseaux",
+            icon: "🖧",
+            items: [
+                "Administration avancée Windows Server et Linux",
+                "Gestion des environnements virtualisés (VMware, Hyper-V, Proxmox)",
+                "Administration des bases de données PostgreSQL, MySQL et SQL Server (exploitation, sauvegarde, supervision)",
+                "Administration Active Directory : utilisateurs, groupes, GPO et délégation",
+                "Administration Microsoft 365 (Exchange Online, Teams, SharePoint, Entra ID)",
+                "Gestion des réseaux LAN, WAN, Wi-Fi et VPN",
+                "Administration des solutions de sécurité : firewall, antivirus, EDR",
+                "Mise en place et suivi des sauvegardes et restaurations",
+                "Supervision de la disponibilité, performance et sécurité des systèmes"
+            ]
+        },
+        {
+            category: "Systèmes d’Exploitation",
             icon: "🖥️",
             items: [
                 "Windows Server 2012/2016/2019/2022 (AD, DNS, DHCP)",
-                "Windows 10/11 Administration",
-                "Ubuntu / Debian / CentOS (Server & Desktop)",
-                "Gestion des services, journalisation, scripts de maintenance"
+                "Administration Windows 10 / 11",
+                "Linux Ubuntu, Debian, CentOS (Server & Desktop)",
+                "Gestion des services, logs et automatisation des tâches"
             ]
         },
         {
@@ -1108,59 +1134,58 @@ function Skills() {
             icon: "☁️",
             items: [
                 "VMware, Hyper-V, Proxmox, VirtualBox",
-                "Création et gestion de VM, templates, snapshots",
-                "Haute Disponibilité et basculement",
-                "Bases de la consolidation et dimensionnement d'infra"
+                "Création, gestion et supervision des machines virtuelles",
+                "Templates, optimisation des ressources",
+                "Notions de haute disponibilité, basculement et dimensionnement"
             ]
         },
         {
             category: "Active Directory & Services d’Infrastructure",
             icon: "👥",
             items: [
-                "ADDS, DNS, DHCP, DFS",
-                "ADCS, IIS, gestion des certificats",
-                "RemoteApp (RD Web, RD Host, RD Gateway)",
-                "GPO avancées, délégation d'administration, durcissement Kerberos"
+                "AD DS, DNS, DHCP, DFS",
+                "AD CS, IIS, gestion des certificats",
+                "Services Remote Desktop (RD Web, RD Host, RD Gateway)",
+                "GPO avancées, délégation d’administration et durcissement de la sécurité"
             ]
         },
         {
             category: "Réseaux & Routage IP",
             icon: "🌐",
             items: [
-                "Cisco / Mikrotik : configuration d’équipements réseau",
-                "VLAN / Inter-VLAN, routage statique et dynamique",
-                "VPN (IPsec, OpenVPN), QoS / Load Balancing",
-                "OSPF / BGP, analyse de trafic avec Wireshark"
+                "Configuration d’équipements réseau Cisco et Mikrotik",
+                "VLAN, inter-VLAN, routage statique et dynamique",
+                "VPN IPsec et OpenVPN, QoS et Load Balancing",
+                "Notions OSPF et analyse de trafic avec Wireshark"
             ]
         },
         {
             category: "Sécurité Informatique",
             icon: "🔒",
             items: [
-                "Firewalls (pfSense, Fortigate, Cisco ASA)",
-                "Règles de filtrage, NAT, port forwarding, portail captif, vouchers",
-                "IDS/IPS (Snort / Suricata), SSL/TLS",
-                "Audit de sécurité, durcissement systèmes et réseaux, notions de SIEM"
+                "Firewalls pfSense, Fortigate, Cisco ASA",
+                "Filtrage, NAT, port forwarding, portail captif",
+                "IDS/IPS (Snort, Suricata), SSL/TLS",
+                "Audit de sécurité, durcissement systèmes et réseaux, notions SIEM"
             ]
         },
         {
             category: "Supervision & Monitoring",
             icon: "📊",
             items: [
-                "Zabbix (hôtes, items, triggers, templates)",
-                "Nagios / Centreon",
-                "Grafana + Prometheus",
-                "ELK Stack, PRTG Network Monitor"
+                "Zabbix : hôtes, items, triggers et templates",
+                "Nagios, Centreon",
+                "Grafana et Prometheus",
+                "ELK Stack et PRTG Network Monitor"
             ]
         },
         {
             category: "Stockage & Sauvegarde",
             icon: "💾",
             items: [
-                "SAN / NAS (Dell EMC, HP, Synology)",
+                "SAN,NAS Claud",
                 "Veeam Backup & Replication",
-                "Snapshots, plan de sauvegarde et restauration",
-                "Notions de PRA/PCA"
+                "Plans de sauvegarde, restauration et tests"
             ]
         },
         {
@@ -1168,45 +1193,56 @@ function Skills() {
             icon: "🗂️",
             items: [
                 "MySQL / MariaDB, PostgreSQL, SQL Server",
-                "Installation, sauvegarde/restauration",
-                "Requêtes SQL de base et optimisation simple"
+                "Installation, administration et sauvegarde",
+                "Requêtes SQL et optimisations de base"
             ]
         },
         {
             category: "Développement Web & APIs",
             icon: "💻",
             items: [
-                "Next.js, React, Vue.js, Express.js, Spring Boot",
-                "HTML / CSS / JavaScript",
-                "PHP (base), REST APIs",
-                "Intégration front/back pour outils d’admin"
+                "React, Next.js, Vue.js",
+                "Node.js (Express), Spring Boot",
+                "HTML, CSS, JavaScript, PHP, Laravel",
+                "Conception et intégration d’API REST"
             ]
         },
         {
-            category: "Développement Mobile & Bureau",
+            category: "Développement Mobile & Desktop",
             icon: "📱",
             items: [
-                "React Native, Expo Go",
+                "React Native, Expo",
                 "Java, C#, C++ (applications desktop)",
-                "Consommation d’APIs REST"
+                "Consommation et intégration d’API REST"
             ]
         },
         {
             category: "Automatisation & Outils",
             icon: "⚙️",
             items: [
-                "PowerShell avancé (AD, Windows Server)",
-                "Bash / Shell pour Linux",
-                "Git / GitHub / GitLab (versionning, CI/CD basique)"
+                "PowerShell avancé (Active Directory, Windows Server)",
+                "Bash / Shell scripting sous Linux",
+                "Git, GitHub, GitLab (versioning et CI/CD basique)"
             ]
         },
         {
-            category: "Support & Mobilité",
-            icon: "📋",
+            category: "Gestion du Parc & Support IT",
+            icon: "💻",
             items: [
-                "Smartphone Android : premier démarrage, configuration",
-                "Gestion des permissions et droits utilisateurs",
-                "Support utilisateur et accompagnement"
+                "Gestion du parc informatique (PC, laptops, imprimantes, équipements réseau)",
+                "Installation, configuration et maintenance des postes utilisateurs",
+                "Support utilisateur niveau 1 et 2",
+                "Gestion des droits, permissions et accompagnement utilisateurs"
+            ]
+        },
+        {
+            category: "Management & Pilotage IT",
+            icon: "👥",
+            items: [
+                "Coordination et encadrement d’équipe IT",
+                "Répartition des tâches et priorisation",
+                "Suivi des actions et reporting",
+                "Communication efficace avec les utilisateurs et la direction"
             ]
         }
     ];
@@ -1221,7 +1257,7 @@ function Skills() {
                     children: "Compétences Techniques"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 136,
+                    lineNumber: 173,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1229,7 +1265,7 @@ function Skills() {
                     children: "Une expertise complète couvrant l'administration systèmes, la gestion réseau, la sécurité informatique et le développement full-stack."
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 139,
+                    lineNumber: 176,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,7 +1282,7 @@ function Skills() {
                                             children: skill.category
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 193,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1254,13 +1290,13 @@ function Skills() {
                                             children: skill.icon
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 196,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 155,
+                                    lineNumber: 192,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1272,7 +1308,7 @@ function Skills() {
                                                     className: "w-1.5 h-1.5 bg-accent rounded-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/skills.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 206,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1280,18 +1316,18 @@ function Skills() {
                                                     children: item
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/skills.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 207,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/components/sections/skills.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 205,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 199,
                                     columnNumber: 15
                                 }, this),
                                 skill.items.length > 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1299,29 +1335,29 @@ function Skills() {
                                     children: selectedCategory === skill.category ? "Voir moins" : `+${skill.items.length - 3} compétences`
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/skills.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 215,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, idx, true, {
                             fileName: "[project]/components/sections/skills.tsx",
-                            lineNumber: 146,
+                            lineNumber: 183,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/skills.tsx",
-                    lineNumber: 144,
+                    lineNumber: 181,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/skills.tsx",
-            lineNumber: 135,
+            lineNumber: 172,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/skills.tsx",
-        lineNumber: 134,
+        lineNumber: 171,
         columnNumber: 5
     }, this);
 }
@@ -1734,6 +1770,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Education() {
     const educations = [
         {
+            period: "en cours",
+            title: "formation de sisco Academy",
+            school: "",
+            details: "Administration Systèmes et Réseaux"
+        },
+        {
             period: "2024-2025",
             title: "Troisième année de Licence Professionnelle",
             school: "Ecole Nationale Informatique, Université de Fianarantsoa",
@@ -1789,7 +1831,7 @@ function Education() {
                     children: "Formation & Certifications"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/education.tsx",
-                    lineNumber: 56,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1804,20 +1846,20 @@ function Education() {
                                             className: "w-3 h-3 bg-primary rounded-full mt-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 74,
                                             columnNumber: 17
                                         }, this),
                                         idx !== educations.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "w-0.5 h-20 bg-border"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 70,
+                                            lineNumber: 76,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/education.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1831,7 +1873,7 @@ function Education() {
                                                     children: edu.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/education.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 83,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1839,13 +1881,13 @@ function Education() {
                                                     children: edu.period
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/education.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 86,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 82,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1853,7 +1895,7 @@ function Education() {
                                             children: edu.school
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1861,7 +1903,7 @@ function Education() {
                                             children: edu.details
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         edu.certificateImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1872,35 +1914,35 @@ function Education() {
                                             children: "Voir le certificat"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/education.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 95,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/education.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 81,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, idx, true, {
                             fileName: "[project]/components/sections/education.tsx",
-                            lineNumber: 62,
+                            lineNumber: 68,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/education.tsx",
-                    lineNumber: 60,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/education.tsx",
-            lineNumber: 55,
+            lineNumber: 61,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/education.tsx",
-        lineNumber: 54,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }
